@@ -3,7 +3,7 @@
 # VERSION               0.0.1
 #
 
-FROM     fwed/zend-server
+FROM     fwed/zend-server:telldus
 MAINTAINER Gallyoko "yogallyko@gmail.com"
 
 # Mise a jour des depots

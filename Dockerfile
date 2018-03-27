@@ -11,7 +11,7 @@ RUN (apt-get update && apt-get upgrade -y -q && apt-get -y -q autoclean && apt-g
 
 # Ajout du depot pour la cle TellStick
 RUN echo 'deb http://download.telldus.com/debian/ stable main' | tee /etc/apt/sources.list.d/telldus.list
-RUN wget http://download.telldus.se/debian/telldus-public.key -O- | apt-key add -
+RUN wget -q http://download.telldus.com/debian/telldus-public.key -O- | apt-key add -
 RUN apt-get update
 RUN apt-get install -y -q telldus-core
 

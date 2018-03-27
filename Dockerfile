@@ -1,4 +1,4 @@
-# Ionic dans un container
+# Telldus dans un container
 #
 # VERSION               0.0.1
 #
